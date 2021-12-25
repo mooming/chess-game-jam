@@ -139,10 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CommandLineInput.cpp" />
+    <ClCompile Include="ExecutionMode.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="StringHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CommandLineInput.h" />
+    <ClInclude Include="ExecutionMode.h" />
     <ClInclude Include="StringHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
